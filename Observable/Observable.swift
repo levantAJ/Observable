@@ -8,7 +8,7 @@
 
 public struct Observable<T> {
     
-    typealias NotifyClosure = (value: T?) -> Void
+    public typealias NotifyClosure = (value: T?) -> Void
     
     var listener: NotifyClosure?
     public var value: T? {
@@ -19,7 +19,7 @@ public struct Observable<T> {
         }
     }
     
-    mutating func onChange(listener: NotifyClosure) {
+    public mutating func onChange(listener: NotifyClosure) {
         self.listener = listener
     }
     

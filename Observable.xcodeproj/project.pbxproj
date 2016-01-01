@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB61BD11C36211500D76A5E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB61BD01C36211500D76A5E /* BaseViewModel.swift */; };
 		3DD0ACB21C15DC94000CB1BD /* Observable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD0ACB11C15DC94000CB1BD /* Observable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DD0ACB91C15DC94000CB1BD /* Observable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD0ACAE1C15DC94000CB1BD /* Observable.framework */; };
 		3DD0ACBE1C15DC94000CB1BD /* ObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0ACBD1C15DC94000CB1BD /* ObservableTests.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DB61BD01C36211500D76A5E /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		3DD0ACAE1C15DC94000CB1BD /* Observable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD0ACB11C15DC94000CB1BD /* Observable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
 		3DD0ACB31C15DC94000CB1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				3DD0ACB11C15DC94000CB1BD /* Observable.h */,
 				3DD0ACC81C15DCC1000CB1BD /* Observable.swift */,
+				3DB61BD01C36211500D76A5E /* BaseViewModel.swift */,
 				3DD0ACB31C15DC94000CB1BD /* Info.plist */,
 			);
 			path = Observable;
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DD0ACC91C15DCC1000CB1BD /* Observable.swift in Sources */,
+				3DB61BD11C36211500D76A5E /* BaseViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +387,7 @@
 				3DD0ACC41C15DC94000CB1BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DD0ACC51C15DC94000CB1BD /* Build configuration list for PBXNativeTarget "ObservableTests" */ = {
 			isa = XCConfigurationList;
@@ -391,6 +396,7 @@
 				3DD0ACC71C15DC94000CB1BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

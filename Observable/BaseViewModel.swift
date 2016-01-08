@@ -10,9 +10,9 @@ public protocol BaseViewModelable {
     func removeListeners()
 }
 
-public class BaseViewModel {
+public class BaseViewModel: NSObject {
     
-    public init() {}
+    public override init() {}
     
     public var error = Observable(value: NSError(domain: "com.levantAJ.Observable", code: -1001, userInfo: nil))
     
